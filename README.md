@@ -1,80 +1,86 @@
-# research-pipeline
+# SoftGamings Competitive Intelligence Pipeline
 
-Creates a self-contained LLM research pipeline project for structured research on any topic.
+## Start Here
 
-## What It Does
+If you're an LLM starting a research session, read these files in order:
 
-Guides you through designing and building a complete research pipeline — CSV data models, stage-by-stage LLM prompts, supporting files, and a README entry point. The output is a portable folder that any LLM with file access can pick up and run to systematically research dozens of subjects.
+1. `prompts/master_system_prompt.md` — your central instructions
+2. `debugging.md` — past corrections
+3. `research_log.md` — progress tracker
+4. `subjects/subject_list.md` — competitor list
+5. `research_best_practices.md` — research rules
 
-## Who It's For
+Then follow the master system prompt: determine session state, report progress, recommend next action, wait for user choice.
 
-Product managers, founders, and researchers who need to systematically analyze many subjects (competitors, tools, markets) and want structured, verifiable data — not a wall of prose.
+## Project Overview
 
-## Usage
+Structured competitive intelligence research for **SoftGamings** — a B2B iGaming platform provider (sportsbook, casino, game aggregator API, licensing). Analyzing 13 competitors across CIS, Asia, Europe, and Latin America to inform product strategy, positioning, lead generation, and regional marketing.
 
-```
-/research-pipeline
-```
+## Pipeline Stages
 
-The skill walks you through 9 phases interactively. You provide the research topic and data requirements; it generates the entire project infrastructure.
+| Stage | Prompt File | Output CSV(s) | What It Captures |
+|-------|------------|---------------|------------------|
+| 1 | `prompts/stage1_company_overview.md` | `data/competitor_overview.csv` | Company basics, pricing, client count |
+| 2 | `prompts/stage2_products_solutions.md` | `data/products_solutions.csv` | Product portfolio per competitor |
+| 3 | `prompts/stage3_licensing_geo.md` | `data/licensing_jurisdictions.csv` + `data/geo_coverage_messaging.csv` | Licenses held, geo presence, regional messaging |
+| 4 | `prompts/stage4_value_proposition_swot.md` | `data/value_proposition_swot.csv` | USP, positioning, SWOT vs SoftGamings |
+| 5 | `prompts/stage5_lead_magnets_acquisition.md` | `data/lead_magnets_acquisition.csv` | Lead magnets, acquisition channels, hiring signals |
+| 6 | `prompts/stage6_media_news.md` | `data/media_news_mentions.csv` | Press coverage, awards, news 2023-2026 |
+| 7 | `prompts/stage7_fact_check.md` | All CSVs (corrections) | Cross-verify all data, fix errors |
 
-## Workflow
+## Key Rules
 
-```
-Phase 1: Define research scope (product, audience, topic, subjects)
-    ↓
-Phase 2: Design CSV data model (columns, types, relationships)
-    ↓
-Phase 3: Design pipeline stages (order, dependencies, sources)
-    ↓
-Phase 4: Write stage prompts (14-section format with embedded best practices)
-    ↓
-Phase 5: Create supporting files (subject list, logs, best practices)
-    ↓
-Phase 6: Write master system prompt (central controller)
-    ↓
-Phase 7: Create README (universal LLM entry point)
-    ↓
-Phase 8: Generate startup prompt (copy-pasteable for any LLM)
-    ↓
-Phase 9: Quality check (verify consistency across all files)
-```
+1. **Never write to CSV before user approval** — always show data in chat first
+2. **UNVERIFIED > guessing** — never fabricate data points
+3. **Sources required** — every CSV row must have reference URLs
+4. **Consistent naming** — competitor_name must be identical across all CSVs
+5. **Sequential stages** — never skip; each stage builds on previous ones
 
-## Output
-
-A complete project folder:
+## Project Structure
 
 ```
-project_name/
-├── README.md                      ← any LLM starts here
-├── prompts/                       ← stage-by-stage research instructions
-├── data/                          ← CSV files (headers only, LLM populates)
-├── subjects/                      ← research subjects with priorities
-├── research_log.md                ← progress tracker
-├── debugging.md                   ← correction log
-└── research_best_practices.md     ← research techniques
+research-pipeline/
+├── README.md                          ← you are here (LLM entry point)
+├── prompts/
+│   ├── master_system_prompt.md        ← central controller
+│   ├── stage1_company_overview.md     ← Stage 1 instructions
+│   ├── stage2_products_solutions.md   ← Stage 2 instructions
+│   ├── stage3_licensing_geo.md        ← Stage 3 instructions
+│   ├── stage4_value_proposition_swot.md ← Stage 4 instructions
+│   ├── stage5_lead_magnets_acquisition.md ← Stage 5 instructions
+│   ├── stage6_media_news.md           ← Stage 6 instructions
+│   └── stage7_fact_check.md           ← Stage 7 instructions
+├── data/
+│   ├── competitor_overview.csv        ← headers only (Stage 1 populates)
+│   ├── products_solutions.csv         ← headers only (Stage 2 populates)
+│   ├── licensing_jurisdictions.csv    ← headers only (Stage 3 populates)
+│   ├── geo_coverage_messaging.csv     ← headers only (Stage 3 populates)
+│   ├── value_proposition_swot.csv     ← headers only (Stage 4 populates)
+│   ├── lead_magnets_acquisition.csv   ← headers only (Stage 5 populates)
+│   └── media_news_mentions.csv        ← headers only (Stage 6 populates)
+├── subjects/
+│   └── subject_list.md                ← 13 competitors with priorities
+├── research_log.md                    ← empty, tracks progress
+├── debugging.md                       ← empty, tracks corrections
+├── research_best_practices.md         ← iGaming CI research techniques
+└── references/
+    └── how_to_create_research_pipeline.md ← methodology playbook
 ```
 
-## Key Principles
+## Competitors (13 unique)
 
-- Structure before research — build the pipeline completely before starting any analysis
-- User approves everything — no files written without explicit approval
-- Prompts are self-contained — each stage prompt has all rules inline
-- CSVs are the single source of truth — no duplicate data in reports
-- Portable by design — works on any machine, with any LLM
-
-## When NOT to Use
-
-- One-off research questions (just ask the LLM directly)
-- Research with fewer than 5 subjects (overkill for small sets)
-- When you don't need structured, comparable data across subjects
-- When you want prose reports instead of tabular data
-
-## Related Skills
-
-- `/ideate` - Use before this skill to validate whether the research is worth doing
-- `/create-plan` - Use after this skill if you need an implementation plan based on findings
-
-## License
-
-MIT
+| # | Competitor | Regions | Priority |
+|---|-----------|---------|----------|
+| 1 | SOFTSWISS | CIS, Europe, LatAm | High |
+| 2 | Slotegrator | CIS, Europe, LatAm | High |
+| 3 | BetConstruct | CIS, Asia, LatAm | High |
+| 4 | Digitain | CIS, Asia | Medium |
+| 5 | NuxGame | CIS | Medium |
+| 6 | GamingSoft | Asia | Medium |
+| 7 | Uplatform | Asia, LatAm | Medium |
+| 8 | GammaStack | Asia | Low |
+| 9 | EveryMatrix | Europe | High |
+| 10 | ProgressPlay | Europe | Medium |
+| 11 | White Hat Gaming | Europe | Medium |
+| 12 | Pronet Gaming | Europe | Low |
+| 13 | Caleta Gaming | LatAm | Low |
