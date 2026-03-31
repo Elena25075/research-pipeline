@@ -15,3 +15,6 @@ Track every correction so mistakes aren't repeated.
 | 9 | 2026-03-31 | Pronet Gaming | 1 | Employees listed as ~100-200 | ~96 (GetLatka) | GetLatka provides specific headcount for smaller companies |
 | 10 | 2026-03-31 | Pronet Gaming | 1 | Revenue listed as ~$3.5-35M | ~$3.5-7.8M (GetLatka + RocketReach) | The $35M figure was from an unreliable source; use GetLatka + RocketReach together |
 | 11 | 2026-03-31 | Digitain | 1 | Employees listed as 1,800+ | ~1,400-2,000+ (range across sources) | Use ranges when LinkedIn, RocketReach, and company claims diverge |
+| 12 | 2026-03-31 | EveryMatrix | 2 | CasinoEngine and SlotMatrix merged as one product (20K-45K games) | CasinoEngine = 27,800+ games / 317 providers; SlotMatrix = 45,000+ / 355+ (separate products) | CasinoEngine is integrated platform aggregator; SlotMatrix is standalone B2B aggregator — they are different products |
+| 13 | 2026-03-31 | EveryMatrix | 2 | Employees listed as ~1,311 (Q1 2025) | 1,400+ (late 2025) — company grew 36% YoY | Use most recent figure when quarterly reports are available |
+| 14 | 2026-03-31 | NuxGame | 2 | Employees listed as 51-200 | 200+ specialists (per 2025 year-end review) | Year-end press releases often have updated headcount |

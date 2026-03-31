@@ -1,1 +1,75 @@
 competitor_name,product_name,product_category,description,game_count,provider_count,key_differentiator,launch_speed,sources
+SOFTSWISS,Casino Platform,casino_platform,"Full online casino management: player accounts, KYC/AML, payments, game management, bonusing, CRM, reporting, anti-fraud",,,First to integrate crypto (2013); powers 250+ brands with 6M+ MAU,4-6 weeks (white-label),softswiss.com/casino-platform/
+SOFTSWISS,Game Aggregator,game_aggregator,"Single-API access to games from 300+ providers. Claims 99.999% uptime",40000+,300+,Largest crypto-native game aggregator; 99.999% uptime,,softswiss.com; yogonet.com
+SOFTSWISS,Sportsbook Platform,sportsbook,"Sports betting with 2000+ markets, real-time odds. Launched 2020",,,First Sportsbook Network Jackpot (EUR35K pool); gamification features,As fast as 14 days,softswiss.com
+SOFTSWISS,Jackpot Aggregator,other,"Cross-operator jackpot management. Record win EUR1.4M in 2025",,,"500+ campaigns launched in 2025; 70,000+ jackpot hits",,softswiss.com
+SOFTSWISS,Affilka,affiliate_system,"Affiliate management with traffic tracking, commissions, deep-links, direct payouts",,,"500,000+ affiliate accounts; 122M registered players",,softswiss.com
+SOFTSWISS,White Label Casino,white_label,"Launch under SOFTSWISS master license (Curacao/Malta). Includes all platform products",40000+,300+,Full ecosystem bundled; crypto-first,4-6 weeks,softswiss.com
+SOFTSWISS,Turnkey Casino,turnkey,"Operator uses own license; SOFTSWISS provides full tech stack",40000+,300+,Same platform as white-label but operator-licensed,,softswiss.com
+Slotegrator,APIgrator,game_aggregator,"Game aggregation hub via single API integration",40000+,180+,"Largest content library in mid-market; single API, single contract",,slotegrator.pro/products/
+Slotegrator,Turnkey Online Casino,turnkey,"Complete ready-to-launch casino platform with games, payments, back office, bonus engine, CRM",40000+,180+,Launch time 30-45 days; Casino Builder 2.0 (no-code frontend),30-45 days,slotegrator.pro
+Slotegrator,White Label Casino,white_label,"Faster launch under Slotegrator's Curacao sublicense. Includes B2C player support",40000+,180+,Fastest licensing path for new operators via sublicense,,slotegrator.pro/white_label_casino.html
+Slotegrator,Sportegrator,sportsbook,"Sportsbook integration solution with customizable software and multiple data feeds",,,"Unified API for multiple sportsbook data providers",,slotegrator.pro
+Slotegrator,Moneygrator,payment_gateway,"Payment aggregator with crypto, fiat, and local payment methods",,,"150+ payment methods; 250+ processor integrations; AI Bot for support",,slotegrator.pro
+Slotegrator,Bonusgrator,other,"Customizable bonus and loyalty system (free spins, deposit bonuses, VIP, tournaments)",,,Modular bonus engine with tournament support,,slotegrator.pro
+BetConstruct,Sportsbook,sportsbook,"75,000+ pre-match and 45,000+ live matches/month across 120+ sports",,,"Centrivo engine; Bet Builder; 120+ sports; BetX Pro P2P exchange",,betconstruct.com
+BetConstruct,Casino Suite,casino_platform,"Casino aggregator with in-house RNG and blockchain content (DECA platform)",15000+,250+,In-house content + third-party aggregation combined,,betconstruct.com
+BetConstruct,Live Casino,live_casino,"In-house live dealer studio + KISS AI Live Casino (AI replaces traditional studio)",,,"KISS AI Live Casino — industry-first AI-powered live dealer",,betconstruct.com
+BetConstruct,SpringBME,other,"Unified back-office: single dashboard for sportsbook, casino, CRM, payments, reporting, risk",,,"Industry-first unified management platform across all verticals",,betconstruct.com
+BetConstruct,White Label Solution,white_label,"Full business-in-a-box under BetConstruct licenses (Curacao, Malta, UK). 500+ payment gateways",15000+,250+,"Won White Label Supplier of the Year (SBC 2025); launch 1-3 weeks",1-3 weeks,betconstruct.com; eegaming.org
+BetConstruct,Turnkey Solution,turnkey,"Operator gets own license; BetConstruct provides CMS, website builder, back-office, APIs",15000+,250+,SpringBuilder X mobile-oriented website builder,,betconstruct.com
+BetConstruct,Affigates,affiliate_system,"Affiliate ecosystem launched 2025",,,"4,500+ affiliates; 630+ operator partners; 30M+ players",,sbcamericas.com
+Digitain,Centrivo Sportsbook,sportsbook,"65+ sports, 180,000+ live events/month, 4,000+ betting markets. GLI-19/33 certified",,,"Bet Builder; GLI certified; 25+ years of sportsbook development",,digitain.com
+Digitain,Relum Casino Aggregator,game_aggregator,"API-based casino aggregation with customizable front-end, back-office, gamification",,,"Expanding in LatAm and Africa; customizable promotional tools",,digitain.com
+Digitain,Galaxsys Fast Games,other,"In-house game studio: 20+ skill/instant games (Crash, Plinko, etc.)",,,"Proprietary content; separately licensed in multiple jurisdictions",,digitain.com
+Digitain,Imagine Live,live_casino,"Proprietary live dealer studio with dedicated branded tables and game shows",,,"AI-driven dealer quality control; two new studios in pipeline",,digitain.com
+Digitain,Paydrom,payment_gateway,"In-house payment solution with in-cashier bonus system",,,"140+ payment methods; unique in-cashier bonus feature",,digitain.com
+Digitain,Full Turnkey,turnkey,"Combined sportsbook + casino + CRM + payments + mobile",,,"Deployable in ~6 weeks; single ecosystem under one back-office",~6 weeks,digitain.com
+NuxGame,Casino Game Aggregator,game_aggregator,"Single API access to games from 130+ providers",16500+,130+,"Single API, single contract; 24-hour onboarding for API clients",,nuxgame.com
+NuxGame,White-Label Casino,white_label,"Ready-to-launch branded casino on NuxGame's licensed infrastructure",16500+,130+,Go live in under 1 month; under $120K total cost,Under 4 weeks,nuxgame.com; whitelabelwonder.com
+NuxGame,Sportsbook Platform,sportsbook,"370,000+ annual sporting events powered by LSports data",,,"Pre-match and live betting; LSports partnership",,nuxgame.com/sportsbook
+NuxGame,Crypto Casino,crypto_casino,"Dedicated crypto-native casino with Web3 API support",,,"180+ currencies (fiat+crypto); Web3-native",,nuxgame.com
+NuxGame,Telegram Casino,other,"Casino embedded inside Telegram for crypto-savvy audiences",,,"Fast deployment; targets crypto/Telegram-native users",,nuxgame.com
+NuxGame,Sweepstakes Casino,other,"Compliant alternative to real-money gaming for US and regulated markets",,,"Targets US market without real-money licensing",,nuxgame.com
+GamingSoft,GSGlobal White-Label,white_label,"Turnkey platform for launching branded casino/sportsbook. Claims launch in 10 minutes via AI White Label",8000+,200+,"AI White Label — world's first AI-integrated white-label (claimed)",10 minutes (claimed),gamingsoft.com
+GamingSoft,GS Connect+ API Aggregator,game_aggregator,"Single API for 200+ game providers with zero-downtime integration",8000+,200+,"Zero-downtime integration; real-time wallet sync",,gamingsoft.com
+GamingSoft,GSPay,payment_gateway,"Supports 25+ fiat currencies and 20+ cryptocurrencies",,,"Geo-routing, failover protection, fraud prevention",,gamingsoft.com
+GamingSoft,AI Chatbot & AI Voice,other,"AI tools: chatbot for multilingual comms, AI Voice handles 20,000 calls/hour",,,"Industry-first AI voice handling 20K calls/hour (claimed)",,gamingsoft.com
+GamingSoft,Telegram Casino,other,"Instant player signup via Telegram BOT with real-time interactions",,,"Differentiator for Asian markets where Telegram is widely used",,gamingsoft.com
+Uplatform,Full Turnkey Platform,turnkey,"End-to-end solution for launching branded casino/sportsbook under own or Uplatform license",16500+,140+,"All-in-one with in-house sportsbook; 65-68 languages",,uplatform.com
+Uplatform,Sportsbook API,sportsbook,"In-house sportsbook covering 260+ sports with 5,500+ markets and 1.5M+ events/year",,,"Built entirely in-house; esports: 60+ titles, 300+ markets",,"uplatform.com; yogonet.com"
+Uplatform,Ucasino Aggregator,game_aggregator,"Casino aggregator with localized content for regulated markets",16500+,140+,Localized for regulated markets,,uplatform.com
+Uplatform,Upayment,payment_gateway,"550+ global and local payment methods including crypto",,,"550+ methods — notably broad; includes fraud management",,uplatform.com
+GammaStack,GammaPlus,turnkey,"Flagship turnkey iGaming suite combining casino, sportsbook, and lottery. Launched Aug 2025",5000+,30+,"Zero GGR/revenue share; 100% code ownership to client",~5 weeks,gammastack.com
+GammaStack,GammaCasino,white_label,"White-label and custom online casino platform",5000+,30+,"Full code ownership; rapid deployment",2-4 weeks,gammastack.com
+GammaStack,GammaBet,sportsbook,"Sports betting platform with 70,000+ monthly events",,,"Zero revenue share on sportsbook product",,gammastack.com
+GammaStack,GammaSweep,other,"Turnkey sweepstakes casino for US social casino operators",,,"Deployable under 5 weeks; targets US market",Under 5 weeks,gammastack.com
+GammaStack,Live Dealer Software 2.0,live_casino,"Multi-camera streaming with AI-driven seat detection, 10+ game types",,,"AI-driven dealer/seat detection",,gammastack.com
+GammaStack,Custom Development,other,"Bespoke iGaming platform development from scratch",,,"Full IP transfer to client; zero ongoing royalties",6-12+ months,gammastack.com
+EveryMatrix,CasinoEngine,game_aggregator,"Casino content aggregator — largest in market. Single integration for all providers",27800+,317,"Largest casino aggregator globally; single integration point",,everymatrix.com; everymatrix.com/casinoengine/
+EveryMatrix,SlotMatrix,game_aggregator,"Pure B2B aggregator — can integrate with any platform (not just EveryMatrix). Zero platform fees",45000+,355+,"Zero platform fees; works with any platform; largest pure aggregator",,everymatrix.com/slotmatrix/
+EveryMatrix,OddsMatrix,sportsbook,"Fully managed sportsbook with AI-powered odds, risk management. 1.5M+ bets/day",,,"AI-powered odds creation; 110,000+ live monthly events; 1.5M+ bets/day",,everymatrix.com
+EveryMatrix,MoneyMatrix,payment_gateway,"Payment processing platform with multi-jurisdiction compliance",,,"200+ payment methods; multi-jurisdiction compliance",,everymatrix.com
+EveryMatrix,GamMatrix,casino_platform,"Back-office and Player Account Management (PAM) system",,,"Core operational backbone; modular API-driven architecture",,everymatrix.com
+EveryMatrix,PartnerMatrix,affiliate_system,"Affiliate and agent management for marketing and partner tracking",,,"Native affiliate management integrated with full stack",,everymatrix.com
+EveryMatrix,BonusEngine,other,"Cross-product bonusing engine for promotions, tournaments, loyalty",,,"Works across casino + sportsbook — cross-product bonusing",,everymatrix.com
+EveryMatrix,Spearhead Studios,other,"Proprietary game studio (launched 2019)",,,"In-house content reduces dependency on third parties",,everymatrix.com
+EveryMatrix,Armadillo Studios,other,"Proprietary game studio (launched 2021)",,,"US-focused content arm",,everymatrix.com
+ProgressPlay,White-Label Casino,white_label,"Fastest time-to-market option under ProgressPlay's MGA/UKGC licenses",4000+,60+,"Three-tier delivery model (white-label/standalone/sweepstakes)",Days to weeks,progressplay.com
+ProgressPlay,Standalone Platform,casino_platform,"Operators hold own licenses; run independently on ProgressPlay infrastructure",4000+,60+,"Eliminates rev-share intermediary; operators own data and brand",,progressplay.com
+ProgressPlay,Sportsbook,sportsbook,"40,000+ live betting markets across 20+ languages, powered by Playtech MTS",,,"Playtech MTS for odds/risk management",,progressplay.com
+ProgressPlay,Sweepstakes Platform,other,"Dual-currency social casino for US and emerging markets",,,"On-ramp toward real-money; launched 2025",,progressplay.com; eegaming.org
+ProgressPlay,Bingo,other,"Dedicated bingo vertical on Playtech network, debuted ICE 2025",,,"Playtech network integration",,progressplay.com
+White Hat Gaming,PAM (Player Account Management),casino_platform,"Core product — end-to-end player lifecycle, digital wallet, back office, CRM",3000+,120+,"Modular architecture; Traveling Wallet for US multi-state",,whitehatgaming.com
+White Hat Gaming,White-Label Casino,white_label,"Full turnkey including licensing, compliance, payments, CRM, content",3000+,120+,"Launch under WHG licenses (MGA/UKGC/US states)",,whitehatgaming.com
+White Hat Gaming,Sportsbook (Kambi),sportsbook,"Integrated sportsbook via Kambi Group partnership (since 2018)",,,"Turnkey sports betting without separate sportsbook vendor",,whitehatgaming.com
+White Hat Gaming,White Hat Studios,other,"Proprietary game studio with RGS from Blueprint Gaming acquisition (2021)",,,"150+ games live in all 7 US iGaming states; $100M+ jackpots paid",,whitehatstudios.com
+White Hat Gaming,In-House Cashier,payment_gateway,"Proprietary payment gateway; PCI-compliant",,,"150+ currencies; fully proprietary (not third-party)",,whitehatgaming.com
+Pronet Gaming,Sportsbook Platform,sportsbook,"230+ sports, 3,000+ markets, 720,000+ live events/year. Betradar-powered",,,"85M bets/day claimed; Betradar partnership; sub-2s odds updates",,pronetgaming.com
+Pronet Gaming,Casino Aggregator,game_aggregator,"Single-API access to casino content",20000+,150+,"Localized Asian content (Sic Bo, Teen Patti, Dragon Tiger)",,pronetgaming.com
+Pronet Gaming,Retail/Omni-Channel,retail,"Land-based terminal management with online-to-retail integration",,,"Seamless omni-channel; agent management system",,pronetgaming.com
+Pronet Gaming,Full Platform (Turnkey/WL),turnkey,"Complete back-office, CRM, CMS, multi-language/currency/payment",20000+,150+,"Microservices on AWS; 99.998% uptime claimed",,pronetgaming.com
+Caleta Gaming,Online Slots,other,"70+ slot titles on proprietary GP5 HTML5 engine",,,"Proprietary GP5 platform; rapid development cycles",,caletagaming.com
+Caleta Gaming,Video Bingo,other,"35+ video bingo titles — strongest niche product",,,"Dominant niche in LatAm; few quality competitors in video bingo",,caletagaming.com
+Caleta Gaming,Crash Games,other,"Growing category including BetMan Crash, FashionTV Flash Diamond",,,"Expanding beyond bingo into trending crash format",,caletagaming.com
+Caleta Gaming,Full Game Portfolio,other,"150+ games total: slots, bingo, crash, keno, scratch, lotto, table, mini games",,,"First Brazilian provider with GLI certification for Brazil market",,caletagaming.com
